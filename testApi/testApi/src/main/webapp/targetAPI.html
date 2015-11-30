@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.link2
+{
+   border: solid 2px #aaa;
+   border-radius: 3x;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   background-color: #89ba38;
+   color: #000;
+   text-decoration: none;
+   font-weight: bold;
+   margin: 10px 3px 10px 3px;
+   padding: 3px;
+   display: inline-block;
+}
+.link2:hover { background-color: #acea11; } 
+</style>
+</head>
+<body>
+	<h1>TARGET API</h1>
+	 <p>
+	 This URL gets all the records from the MongoDB store and responds it to GET
+	 <a href="http://localhost:8080/testApi/api/webservice/getAllRecords" class="link2" target="_blank">Get all records from MongoDB Store</a><br />
+	 </p>
+	<br/><br/>
+	 This URL tries to get a specific product from the Target API when provided with the product ID
+	 <!-- <a href="http://localhost:8080/testApi/api/webservice/products/13860428" class="link2" target="_blank">Get all records from MongoDB Store for product id : 13860428</a><br/> -->
+     <form action="handlingURL.jsp" method="GET">
+		Product ID: <input type="text" name="productID">
+		<input type="submit" value="Submit" />
+	</form>
+    <br />
+     <p>
+     This URL consumes the the URL for other API and gets the data back from it :
+	 <a href="http://localhost:8080/testApi/api/webservice/consumeURL" class="link2" target="_blank">Get records from Target API</a>
+	 </p>
+</body>
+</html>

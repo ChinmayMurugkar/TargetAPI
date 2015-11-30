@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.myRetail.testApi.TestMyRetailAPI" time="3.806" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/chinmay/Documents/webservice_workspace/testApi"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/chinmay/Documents/webservice_workspace/testApi"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/h6/_xwg641s0f52q0snzw2xqprm0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/chinmay/Documents/webservice_workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf8619338513946508617.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/chinmay/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.4"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/chinmay"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="chinmay"/>
+    <property name="java.class.path" value="/Users/chinmay/Desktop/Chinmay/TargetApp/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="/Users/chinmay/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/chinmay/Documents/webservice_workspace/testApi/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.myRetail.testApi.TestMyRetailAPI" name="testGetRequestForAllRecords" time="3.806">
+    <failure message="Body doesn&apos;t match.
+Expected:
+&quot;{\&quot;product_composite_response\&quot;:{\&quot;request_attributes\&quot;:[{\&quot;name\&quot;:\&quot;product_id\&quot;,\&quot;value\&quot;:\&quot;13860428\&quot;},{\&quot;name\&quot;:\&quot;key\&quot;,\&quot;value\&quot;:\&quot;43cJWpLjH8Z8oR18KdrZDBKAgLLQKJjz\&quot;},{\&quot;name\&quot;:\&quot;id_type\&quot;,\&quot;value\&quot;:\&quot;TCIN\&quot;},{\&quot;name\&quot;:\&quot;fields\&quot;,\&quot;value\&quot;:\&quot;descriptions\&quot;}],\&quot;items\&quot;:[{\&quot;relation\&quot;:\&quot;TAC\&quot;,\&quot;relation_description\&quot;:\&quot;Title Authority Child\&quot;,\&quot;data_page_link\&quot;:\&quot;http://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428\&quot;,\&quot;imn_identifier\&quot;:12244586,\&quot;identifier\&quot;:[{\&quot;id_type\&quot;:\&quot;DPCI\&quot;,\&quot;id\&quot;:\&quot;058-34-0436\&quot;,\&quot;is_primary\&quot;:null,\&quot;source\&quot;:\&quot;Online and Store\&quot;},{\&quot;id_type\&quot;:\&quot;TCIN\&quot;,\&quot;id\&quot;:\&quot;13860428\&quot;,\&quot;is_primary\&quot;:null,\&quot;source\&quot;:\&quot;Online\&quot;}],\&quot;is_orderable\&quot;:true,\&quot;is_sellable\&quot;:true,\&quot;general_description\&quot;:\&quot;BIG LEBOWSKI, THE Blu-ray\&quot;,\&quot;business_process_status\&quot;:[{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;assortment ready\&quot;,\&quot;operation_code\&quot;:\&quot;PAAP\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:false,\&quot;operation_description\&quot;:\&quot;import ready\&quot;,\&quot;operation_code\&quot;:\&quot;PIPT\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;order ready\&quot;,\&quot;operation_code\&quot;:\&quot;PORD\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;presentation ready\&quot;,\&quot;operation_code\&quot;:\&quot;PPRS\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;project ready\&quot;,\&quot;operation_code\&quot;:\&quot;PCMT\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;replenishment ready\&quot;,\&quot;operation_code\&quot;:\&quot;PRPL\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:false,\&quot;operation_description\&quot;:\&quot;scale ready\&quot;,\&quot;operation_code\&quot;:\&quot;PSCL\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;target.com ready\&quot;,\&quot;operation_code\&quot;:\&quot;PTGT\&quot;}}],\&quot;dpci\&quot;:\&quot;058-34-0436\&quot;,\&quot;department_id\&quot;:58,\&quot;class_id\&quot;:34,\&quot;item_id\&quot;:436,\&quot;online_description\&quot;:{\&quot;value\&quot;:\&quot;The Big Lebowski [Blu-ray]\&quot;,\&quot;type\&quot;:\&quot;GENL\&quot;},\&quot;store_description\&quot;:{\&quot;value\&quot;:\&quot;BIG LEBOWSKI, THE Blu-ray\&quot;,\&quot;type\&quot;:\&quot;GENL\&quot;},\&quot;alternate_description\&quot;:[{\&quot;type\&quot;:\&quot;ADSG\&quot;,\&quot;value\&quot;:\&quot;The Big Lebowski:&lt;\/Blu-ray Disc\&quot;,\&quot;type_description\&quot;:\&quot;Ad Signage Description\&quot;},{\&quot;type\&quot;:\&quot;POS\&quot;,\&quot;value\&quot;:\&quot;BLU-RAY\&quot;,\&quot;type_description\&quot;:\&quot;POS Desc\&quot;},{\&quot;type\&quot;:\&quot;SHLF\&quot;,\&quot;value\&quot;:\&quot;BIG LEBOWSKI, THE UNIV\&quot;,\&quot;type_description\&quot;:\&quot;Shelf Desc\&quot;},{\&quot;type\&quot;:\&quot;VEND\&quot;,\&quot;value\&quot;:\&quot;BIG LEBOWSKI BD\&quot;,\&quot;type_description\&quot;:\&quot;Vendor Description\&quot;}]}]}}&quot;
+Actual:
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;Apache Tomcat/8.0.28 - Error report&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 - /api/webservice/consumeURL&lt;/h1&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt; Status report&lt;/p&gt;&lt;p&gt;&lt;b&gt;message&lt;/b&gt; &lt;u&gt;/api/webservice/consumeURL&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt; &lt;u&gt;The requested resource is not available.&lt;/u&gt;&lt;/p&gt;&lt;hr class=&quot;line&quot;&gt;&lt;h3&gt;Apache Tomcat/8.0.28&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;" type="java.lang.AssertionError">java.lang.AssertionError: Body doesn&apos;t match.
+Expected:
+&quot;{\&quot;product_composite_response\&quot;:{\&quot;request_attributes\&quot;:[{\&quot;name\&quot;:\&quot;product_id\&quot;,\&quot;value\&quot;:\&quot;13860428\&quot;},{\&quot;name\&quot;:\&quot;key\&quot;,\&quot;value\&quot;:\&quot;43cJWpLjH8Z8oR18KdrZDBKAgLLQKJjz\&quot;},{\&quot;name\&quot;:\&quot;id_type\&quot;,\&quot;value\&quot;:\&quot;TCIN\&quot;},{\&quot;name\&quot;:\&quot;fields\&quot;,\&quot;value\&quot;:\&quot;descriptions\&quot;}],\&quot;items\&quot;:[{\&quot;relation\&quot;:\&quot;TAC\&quot;,\&quot;relation_description\&quot;:\&quot;Title Authority Child\&quot;,\&quot;data_page_link\&quot;:\&quot;http://www.target.com/p/the-big-lebowski-blu-ray/-/A-13860428\&quot;,\&quot;imn_identifier\&quot;:12244586,\&quot;identifier\&quot;:[{\&quot;id_type\&quot;:\&quot;DPCI\&quot;,\&quot;id\&quot;:\&quot;058-34-0436\&quot;,\&quot;is_primary\&quot;:null,\&quot;source\&quot;:\&quot;Online and Store\&quot;},{\&quot;id_type\&quot;:\&quot;TCIN\&quot;,\&quot;id\&quot;:\&quot;13860428\&quot;,\&quot;is_primary\&quot;:null,\&quot;source\&quot;:\&quot;Online\&quot;}],\&quot;is_orderable\&quot;:true,\&quot;is_sellable\&quot;:true,\&quot;general_description\&quot;:\&quot;BIG LEBOWSKI, THE Blu-ray\&quot;,\&quot;business_process_status\&quot;:[{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;assortment ready\&quot;,\&quot;operation_code\&quot;:\&quot;PAAP\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:false,\&quot;operation_description\&quot;:\&quot;import ready\&quot;,\&quot;operation_code\&quot;:\&quot;PIPT\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;order ready\&quot;,\&quot;operation_code\&quot;:\&quot;PORD\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;presentation ready\&quot;,\&quot;operation_code\&quot;:\&quot;PPRS\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;project ready\&quot;,\&quot;operation_code\&quot;:\&quot;PCMT\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;replenishment ready\&quot;,\&quot;operation_code\&quot;:\&quot;PRPL\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:false,\&quot;operation_description\&quot;:\&quot;scale ready\&quot;,\&quot;operation_code\&quot;:\&quot;PSCL\&quot;}},{\&quot;process_status\&quot;:{\&quot;is_ready\&quot;:true,\&quot;operation_description\&quot;:\&quot;target.com ready\&quot;,\&quot;operation_code\&quot;:\&quot;PTGT\&quot;}}],\&quot;dpci\&quot;:\&quot;058-34-0436\&quot;,\&quot;department_id\&quot;:58,\&quot;class_id\&quot;:34,\&quot;item_id\&quot;:436,\&quot;online_description\&quot;:{\&quot;value\&quot;:\&quot;The Big Lebowski [Blu-ray]\&quot;,\&quot;type\&quot;:\&quot;GENL\&quot;},\&quot;store_description\&quot;:{\&quot;value\&quot;:\&quot;BIG LEBOWSKI, THE Blu-ray\&quot;,\&quot;type\&quot;:\&quot;GENL\&quot;},\&quot;alternate_description\&quot;:[{\&quot;type\&quot;:\&quot;ADSG\&quot;,\&quot;value\&quot;:\&quot;The Big Lebowski:&lt;\/Blu-ray Disc\&quot;,\&quot;type_description\&quot;:\&quot;Ad Signage Description\&quot;},{\&quot;type\&quot;:\&quot;POS\&quot;,\&quot;value\&quot;:\&quot;BLU-RAY\&quot;,\&quot;type_description\&quot;:\&quot;POS Desc\&quot;},{\&quot;type\&quot;:\&quot;SHLF\&quot;,\&quot;value\&quot;:\&quot;BIG LEBOWSKI, THE UNIV\&quot;,\&quot;type_description\&quot;:\&quot;Shelf Desc\&quot;},{\&quot;type\&quot;:\&quot;VEND\&quot;,\&quot;value\&quot;:\&quot;BIG LEBOWSKI BD\&quot;,\&quot;type_description\&quot;:\&quot;Vendor Description\&quot;}]}]}}&quot;
+Actual:
+&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;title&gt;Apache Tomcat/8.0.28 - Error report&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}.line {height: 1px; background-color: #525D76; border: none;}&lt;/style&gt; &lt;/head&gt;&lt;body&gt;&lt;h1&gt;HTTP Status 404 - /api/webservice/consumeURL&lt;/h1&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt; Status report&lt;/p&gt;&lt;p&gt;&lt;b&gt;message&lt;/b&gt; &lt;u&gt;/api/webservice/consumeURL&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt; &lt;u&gt;The requested resource is not available.&lt;/u&gt;&lt;/p&gt;&lt;hr class=&quot;line&quot;&gt;&lt;h3&gt;Apache Tomcat/8.0.28&lt;/h3&gt;&lt;/body&gt;&lt;/html&gt;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:52)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+	at com.jayway.restassured.assertion.BodyMatcher.isFulfilled(BodyMatcher.groovy:40)
+	at com.jayway.restassured.assertion.BodyMatcher$isFulfilled.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)
+	at com.jayway.restassured.assertion.BodyMatcherGroup$_isFulfilled_closure1.doCall(BodyMatcherGroup.groovy:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:90)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:233)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:273)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:884)
+	at groovy.lang.Closure.call(Closure.java:394)
+	at groovy.lang.Closure.call(Closure.java:407)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1239)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.each(DefaultGroovyMethods.java:1215)
+	at org.codehaus.groovy.runtime.dgm$116.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:270)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:52)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at com.jayway.restassured.assertion.BodyMatcherGroup.isFulfilled(BodyMatcherGroup.groovy:32)
+	at com.jayway.restassured.assertion.BodyMatcherGroup$isFulfilled.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:361)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:124)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.invokeFilterChain(RequestSpecificationImpl.groovy:552)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$invokeFilterChain.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:880)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)
+	at com.jayway.restassured.internal.RequestSpecificationImpl$this$2$applyPathParamsAndSendRequest.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:157)
+	at com.jayway.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:118)
+	at com.jayway.restassured.specification.RequestSender$get.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:128)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.get(ResponseSpecificationImpl.groovy:236)
+	at com.myRetail.testApi.TestMyRetailAPI.testGetRequestForAllRecords(TestMyRetailAPI.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:59)
+	at org.junit.internal.runners.MethodRoadie.runTestMethod(MethodRoadie.java:98)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:79)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:77)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:42)
+	at org.junit.internal.runners.JUnit4ClassRunner.invokeTestMethod(JUnit4ClassRunner.java:88)
+	at org.junit.internal.runners.JUnit4ClassRunner.runMethods(JUnit4ClassRunner.java:51)
+	at org.junit.internal.runners.JUnit4ClassRunner$1.run(JUnit4ClassRunner.java:44)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:27)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:37)
+	at org.junit.internal.runners.JUnit4ClassRunner.run(JUnit4ClassRunner.java:42)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+</testsuite>
